@@ -5,7 +5,7 @@ class PiwikModule extends Controller
 
     private $moduleName = "piwik";
 
-    public function footer()
+    public function frontendFooter()
     {
         echo Template::executeModuleTemplate($this->moduleName, "piwik.php");
     }
