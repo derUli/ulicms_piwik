@@ -1,0 +1,11 @@
+{
+	"id": "piwik",
+	"version": "1.0",
+	"description": "Piwik integration for UliCMS",
+	"categories": [
+		"piwik",
+		"statistics"
+	],
+	"compatible_from": "2017.3.12",
+	"dependencies": []
+}

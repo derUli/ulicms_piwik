@@ -1,0 +1,13 @@
+{
+	"source": "extend",
+	"version": "1.0",
+	"embed": false,
+	"custom_acl": [
+		"piwik"
+	],
+	"admin_permission": "piwik",
+	"controllers": {
+		"PiwikModule": "PiwikModule.php"
+	},
+	"main_class": "PiwikModule"
+}
