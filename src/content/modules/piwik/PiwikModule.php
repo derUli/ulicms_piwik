@@ -22,7 +22,9 @@ class PiwikModule extends Controller
         }
         return Template::executeModuleTemplate($this->moduleName, "settings.php");
     }
-    public function uninstall(){
+
+    public function uninstall()
+    {
         Settings::delete("piwik_url");
         Settings::delete("piwik_site_id");
     }

@@ -23,7 +23,7 @@ if (Request::isPost()) {
 			value="<?php Template::escape($piwik_url);?>">
 	</p>
 	<p>
-		<strong><?php translate("piwik_url");?></strong><br /> <input
+		<strong><?php translate("piwik_site_id");?></strong><br /> <input
 			type="number" step="1" name="piwik_site_id"
 			value="<?php Template::escape($piwik_site_id);?>">
 	</p>
